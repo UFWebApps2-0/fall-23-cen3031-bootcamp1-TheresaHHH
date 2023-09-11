@@ -3,7 +3,7 @@ var http = require('http'),
     fs = require('fs'), 
     port = 8080;
 
-/* Global variables *//
+/* Global variables */
 var listingData, server;
 
 var requestHandler = function(request, response) {
